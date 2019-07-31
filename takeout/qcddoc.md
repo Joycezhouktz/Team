@@ -1,41 +1,32 @@
+# Abstract
+
 # 1.Introduction  
 
-## 1.1 background  
+## 1.1 Background  
 
-According to the investigation 10 percent of who order the takeout are in danger
-The rapid evolution of the Chinese express industry has largely promote the development of the food delivery sevices in the catering industry. 
-Thus, plenty of the new food delivery app was lauched to the market and now have owned millions of the users.  
+The rapid development of Chinese express industry has largely promoted the growth of food delivery sevice in catering industry. Recently, plenty of new food delivery apps were launched to facilitate such trend and the market now have attracted millions of consumers. One of the main reasons why consumers choose to order food deliveries is its convenience since consumers could make orders from food suppliers far away, then wait at home or office rather than going for a long way to pick up food. 
+Here is a common scenario of food delivery: consumer orders a food delivery service on an app after selecting food, providing address and contact numbers. The app will then randomly releases the delivery task to a deliveryman. The deliveryman will hand the food over to the consumer face to face on his/her arrival.
+Safety problems may occur during above face to face food handover. According to an recent investigation, 10 percent of consumers who ordered takeout confronted safety problems[](data). Those problems mostly are offensive behaviors of deliverymen to consumers in private places and consumers' information exposure. Food preservation and the stealing problems may also exist when food are left in destination if consumers are not there on deliverymen's arrival. Therefore above problems result in an increasing concern about the security problems existed in food delivery services.  
 (data)  
-Whereas it also result in an increase in the concerns about the security problems exist during the food delivery services process.  
-(data)  
-  
-One of the main reasons why users choose to order a food delivery is due to the convenience and time-saving since the it allow users to just wait for the food to come.
-The common process of a user use the food delivery app to order a delivery services includes choosing items on the app, writing down the address, and waiting for the arrival of the food. The app will randomly release the delivery tasks to the deliveryman and also provide uses’ information including phone numbers, names, and the addresses.
+In this project, we will paticularly focus on designing a high-tech receiving box which have functions of face recongnition, temperature-controlling and anti-stealing. It would prevent problems mentioned above and provide consumers with a safer and more convenient food delivery experiences.
 
-The safety problems may occur during the process when the deliveryman give the food to the users. Those problems mostly are the violation from the deliveryman to the users, mostly come from such private environments of the transitions and the exposure of the users private information. Other problems including the food preservation and the stealing problems may also exist after the food has been delivered to the users’ ordering places.
+### 1.2.1 Current approach  
 
-In this project, we will specially focus on designing an high-tech receiving box which possess the techniques of the monitoring, temperature-controlling, and the anti-stealing, which would help to prevent the problems mentioned above and provide the users with a safer and more convenient food delivery experiences.
-
-### 1.2.1 CURRENT APPROACH  
-
-For the food delivery services, since the food cannot be stored as other normal goods, the products must be directly given to users face to face. This is because that the food tends to get metamorphism or lose its original quality. However, this face to face condition would carry out many potential dangers for both users and deliverymen. Thus, the most effective method to reduce the problems is to prevent the direct contact between the users and the deliveryman. 
-
-The most common methods that people use to prevent the direct contact is to command deliverymen to put the products outside their doors or at the public places in their living buildings, and then go out and pick up the food after the deliverymen have left. Whereas this would also remain some potential problems. For instance, people cannot make sure that the deliverymen have really left or are still wandering nearby; the food can be stolen away; and if people don’t pick up their food immediately, the food would lose the original quality.
-
-Currently, some buildings have already started to use the receiving boxes to help the residents store their food and products from the delivery services. Those boxes which can be locked after the products are put in can solve many problems existed
-### 1.2.2  Existing approach and their limitation  
+In food delivery services, since the store of food is different from other goods, rapid face to face transaction is common. This is because food tend to get deteriorated or lose its original quality quickly after delivery. However, the face to face transcation would cause potential problems for both consumers and deliverymen. Thus, the most effective way to reduce such problems is to prevent direct contact between consumers and deliverymen. 
+Most common ways that consumers use to prevent above direct contact currently is asking deliverymen to leave food outside of their doors or at public places in their living buildings, then go out and pick up the food after deliverymen have left. Even through potential problems are still there. For instance, it is not easy to confirm deliverymen really left or are still wandering nearby; the food might be stolen away. Currently, some buildings have already started to use receiving boxes to help residents to receive their products. Those boxes could be locked automatically after products be dropped in.
+However, in food receiving scenario, if consumers don’t pick up their food immediately, the food, hot or iced food in particularly, would lose original quality in normal store box.
+### 1.2.2  Existing approaches and their limitation  
 
 
 ## 1.3 Objective  
-Our objective is to provide our comsumer the safest way to get a takeout
+Our objective is providing comsumers a safer way to get takeout
 
-# 2.METHODOLOGY  
-## 2.1 OVERVIEW 
-By placing a box out side the door so that the user do not need to get the takeout when the delivery is around. 
-Our product can mainly be separated into three parts: frame, software, and hardware. Frame is basically the box that will contain the component. It will also protect the segments from damages by the rain and wind. Software, the most elaborated part, is where every thing else is bond together. Arduino helps with the controlling of the hardware and send data to the python code. Then the python code will work out the what will be done next and send data back for further operation. This continues in a loop. Last, the hardware has its job to collect data and display it to the user. This part consists of the output and input device. The buzzer to notify to user, the button to open the box, the insulation to keep food at its optimum temperature. Not a single part can be omitted. 
+# 2.Methdology  
+## 2.1 Overview 
+There are three main parts in our design: frame, software, and hardware. Frame is basically the box that contain all components. It also protects segments from being damaged by rain and wind. Software, the most elaborated part, is where everything else is bond together. Arduino helps with the controlling of the hardware and send data to the python code. Then the python code will work out the what will be done next and send data back for further operation. This continues in a loop. Last, the hardware has its job to collect data and display it to the user. This part consists of the output and input device. The buzzer to notify to user, the button to open the box, the insulation to keep food at its optimum temperature. Not a single part can be omitted. 
 
 ## 2.2 Hardware  
-The product has insulation to keep the food at the right temperature so the user can get the food at its optimum condition.
+Insulation is used to keep food at the right temperature so the user can get the food at its optimum condition.
 
 ### 2.2.1 Alarm 
 The alarm system can first detect the position to know when to open the case for food to be put in. Also, it is able to call the police if the delivery is around too long.
@@ -53,10 +44,12 @@ Basicly, a display. This part of the product can remind the user, when the takeo
 ## 3.1 Assessment of Graph  
 Face recognition
 automatic lock
+Can be applied in receiving other products delivery as well.
 
 ## 3.2 Assessment of Application  
 Our main targets are the young generations as their parents has concerns over their safty as well as they might not be able to protect themselves.
 
 # 4.CONCLUSION  
 
-# 5.BIBLIOGRAPHY   
+# 5.BIBLIOGRAPHY 
+APA format
